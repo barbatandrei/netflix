@@ -10,10 +10,10 @@ const Home = () => {
 		<>
 			<div className="relative border-b-8 border-[#222]">
 				<div className="w-full h-1/2 absolute bottom-0 left-0 top-0 right-0 m-auto z-20 ">
-					<h1 className="text-white text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black ">
+					<h1 className="text-white text-center text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black ">
 						Unlimited movies, TV <br></br> shows, and more.
 					</h1>
-					<h3 className="text-white text-center mt-5 text-xl sm:text-2xl lg:text-3xl">
+					<h3 className="text-white text-center mt-5 text-md sm:text-2xl lg:text-3xl">
 						Watch anywhere. Cancel anytime.
 					</h3>
 					<Subscribe />
