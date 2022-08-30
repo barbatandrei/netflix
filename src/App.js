@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Movies from "./pages/Movies";
-import Series from "./pages/Series";
+import Contact from "./pages/Contact";
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/movies" element={<Movies />} />
-				<Route path="/series" element={<Series />} />
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
 		</>
 	);

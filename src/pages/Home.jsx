@@ -1,16 +1,30 @@
 import React from "react";
-import Main from "../components/Main";
 import Section from "../components/Section";
 import firstVideo from "../assets/video.m4v";
 import secondVideo from "../assets/video2.m4v";
 import Questions from "../components/Questions";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
-
 const Home = () => {
 	return (
 		<>
-			<Main />
+			<div className="relative border-b-8 border-[#222]">
+				<div className="w-full h-1/2 absolute bottom-0 left-0 top-0 right-0 m-auto z-20 ">
+					<h1 className="text-white text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black ">
+						Unlimited movies, TV <br></br> shows, and more.
+					</h1>
+					<h3 className="text-white text-center mt-5 text-xl sm:text-2xl lg:text-3xl">
+						Watch anywhere. Cancel anytime.
+					</h3>
+					<Subscribe />
+				</div>
+				<div className="absolute w-full h-[800px] bg-gradient-to-b from-black bg-black bg-opacity-[35%]"></div>
+				<img
+					className="w-full object-cover bg-cover h-[800px]"
+					src="https://assets.nflxext.com/ffe/siteui/vlv3/ac824598-245b-4828-b14f-5cff9074f4d0/02b6f19c-08c7-4dea-af0a-2206b4b1650a/RO-en-20220822-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+					alt=""
+				/>
+			</div>
 			<Section
 				title={"Enjoy on your TV."}
 				text="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more."
@@ -42,6 +56,7 @@ const Home = () => {
 			/>
 			<Questions />
 			<Subscribe />
+			<div className="border-b-8 border-[#222] mb-20 mt-20" />
 			<Footer />
 		</>
 	);
