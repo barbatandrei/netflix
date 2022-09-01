@@ -12,7 +12,7 @@ const Questions = () => {
 
 	return (
 		<div className="flex flex-col w-full">
-			<h1 className="text-white text-5xl font-black flex justify-center mt-10">
+			<h1 className="text-white text-5xl font-black flex justify-center mt-10 text-center">
 				Frequently Asked Questions
 			</h1>
 			<div className=" flex justify-center">
@@ -24,8 +24,8 @@ const Questions = () => {
 						>
 							<div className="pl-6  py-5">What is Netflix?</div>
 							<div
-								className={`pr-4 text-6xl rotate-${
-									expandItem === 0 ? "45" : "0"
+								className={`mr-4 text-6xl ${
+									expandItem === 0 ? "rotate-45" : "rotate-0"
 								} transition-all duration-300 ease-linear`}
 							>
 								+
@@ -58,7 +58,7 @@ const Questions = () => {
 						>
 							<div className="pl-6  py-5">How much does Netflix cost?</div>
 							<div
-								className={`pr-4 text-6xl rotate-${
+								className={`mr-4 text-6xl rotate-${
 									expandItem === 1 ? "45" : "0"
 								} transition-all duration-300 ease-linear`}
 							>

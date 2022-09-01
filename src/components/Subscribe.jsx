@@ -3,11 +3,11 @@ import React from "react";
 const Subscribe = () => {
 	return (
 		<>
-			<p className="text-white flex justify-center mt-12 text-md lg:text-xl">
+			<p className="text-white flex text-center justify-center mt-12 text-md lg:text-xl">
 				Ready to watch? Enter your email to create or restart your membership.
 			</p>
 			<form>
-				<div className="flex justify-center my-8">
+				<div className="flex justify-center my-8 mx-5">
 					<input
 						type="email"
 						placeholder="Email address"

@@ -2,16 +2,12 @@ import React from "react";
 import Main from "../components/Main";
 import requests from "../Requests";
 import Row from "../components/Row";
-import Trailers from "../components/Trailers";
 import Footer from "../components/Footer";
 
 const Movies = () => {
 	return (
 		<>
 			<Main />
-			<Trailers />
-			<div className="my-20 border-t-8 border-[#222]" />
-
 			<Row rowID="1" title="Up Coming" fetchURL={requests.requestUpcoming} />
 			<Row rowID="2" title="Top Rated" fetchURL={requests.requestTopRated} />
 			<Row rowID="3" title="Popular" fetchURL={requests.requestPopular} />

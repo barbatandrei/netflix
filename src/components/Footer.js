@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<>
 			<div className=" text-[#737373] flex justify-center mb-20 ">
-				<div className=" w-[35%]">
+				<div className=" w-full sm:w-[85%] md:w-[75%] xl:w-[40%]">
 					<p className="mb-4 cursor-pointer">Questions? Call 0800-672-120</p>
 					<div className="flex flex-row justify-between">
 						<ul className="">

@@ -18,8 +18,10 @@ const Section = (props) => {
 						}`}
 					>
 						<div className="lg:flex-initial h-full pr-3 w-[90%] text-center lg:w-[52%] z-[3]">
-							<h1 className="text-white text-5xl font-black mb-3">{title}</h1>
-							<h2 className="text-white text-2xl my-5">{text}</h2>
+							<h1 className="text-white text-3xl lg:text-5xl font-black mb-3">
+								{title}
+							</h1>
+							<h2 className="text-white text-xl lg:text-2xl my-5">{text}</h2>
 						</div>
 						<div className="box-border flex lg:flex-initial justify-center h-full w-[80%] lg:w-[48%]">
 							<div className="overflow-hidden relative">

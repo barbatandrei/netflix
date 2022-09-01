@@ -4,12 +4,12 @@ import Footer from "../components/Footer";
 const Contact = () => {
 	return (
 		<>
-			<h1 className="text-white text-5xl text-center mt-40 mb-20">
+			<h1 className="text-white text-2xl sm:text-5xl text-center mt-40 mb-20">
 				Contact Customer Service
 			</h1>
 			<div className=" flex justify-center  ">
 				<div className="flex justify-center w-[800px]">
-					<form className="w-1/2">
+					<form className="sm:w-1/2 w-[90%]">
 						<label className="text-white" for="firstName">
 							First Name
 						</label>
